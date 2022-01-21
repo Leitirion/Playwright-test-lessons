@@ -3,3 +3,5 @@ screenshot_*
 reports.json
 test-results/
 videos/
+.idea/
+.vscode/

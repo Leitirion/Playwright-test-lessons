@@ -8,6 +8,7 @@
     "@models": "app/models"
   },
   "scripts": {
+    "test:lesson1": "npm exec playwright test --workers 2 /01_Setup",
     "test": "npm exec playwright test",
     "test.watch": "jest --watchAll",
     "start": "start node server_start.js",
