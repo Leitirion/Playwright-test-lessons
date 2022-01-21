@@ -2,7 +2,7 @@
 
 <br/>
 
-The files in this repository, are for an introductory course to the **Playwright** test automation tool
+The files in this repository, are for an introductory course to the **Playwright** test automation tool with Typescript
 
 * https://playwright.dev
 
