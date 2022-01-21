@@ -234,3 +234,13 @@ To stop the Test Web App just issue a **Ctrl-C**  command sequence
         npx playwright test tests/01_Setup/Test.web.app.spec.js
 
 <br/>
+
+## Allure report
+
+* To install Allure report run the following command:
+
+```
+
+  npm i -D @playwright/test allure-playwright
+
+```

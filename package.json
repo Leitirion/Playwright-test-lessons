@@ -8,8 +8,8 @@
     "@models": "app/models"
   },
   "scripts": {
-    "test:lesson1": "playwright test --config=config/playwright.config.ts --workers 2 /01_Setup",
-    "test:allure":"playwright test --config=config/playwright.config.ts --workers 2 --reporter=line,allure-playwright",
+    "test:lesson1": "playwright test --config=config/playwright.config.ts --workers 2 /01_Setup/ts",
+    "test:allure": "playwright test --config=config/playwright.config.ts --workers 2 --reporter=line,allure-playwright",
     "test": "npm exec playwright test",
     "test.watch": "jest --watchAll",
     "start": "start node server_start.js",
@@ -27,7 +27,8 @@
   },
   "homepage": "https://gitlab.com/gwyn_davies/playwright_intro_course#readme",
   "devDependencies": {
-    "@playwright/test": "^1.16.3",
+    "@playwright/test": "^1.18.0",
+    "allure-playwright": "^2.0.0-beta.14",
     "socket.io": "^4.1.2",
     "socket.io-client": "^4.1.2"
   },
