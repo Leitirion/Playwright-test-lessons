@@ -13,7 +13,8 @@
     "test": "npm exec playwright test",
     "test.watch": "jest --watchAll",
     "start": "start node server_start.js",
-    "stop": "node server_stop.js"
+    "stop": "node server_stop.js",
+    "gen:sources": "rm -rf src/generated-sources && openapi-generator-cli generate"
   },
   "repository": {
     "type": "git",
