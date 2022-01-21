@@ -244,3 +244,10 @@ To stop the Test Web App just issue a **Ctrl-C**  command sequence
   npm i -D @playwright/test allure-playwright
 
 ```
+
+* To run Allure report use the following command:
+
+```
+allure serve
+
+```
