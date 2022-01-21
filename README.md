@@ -251,3 +251,6 @@ To stop the Test Web App just issue a **Ctrl-C**  command sequence
 allure serve
 
 ```
+<br/>
+
+![Allure report](images/AllureNotifications.png)
