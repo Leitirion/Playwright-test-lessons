@@ -1,4 +1,4 @@
-import { test, expect } from "@playwright/test";
+import { test, expect } from '@playwright/test';
 
 test.describe('Setup - ', () => {
 
@@ -10,6 +10,4 @@ test.describe('Setup - ', () => {
         const title = page.locator('.navbar__inner .navbar__title')
         await expect(title).toHaveText('Playwright')
     })
-
 })
-

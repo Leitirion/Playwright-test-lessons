@@ -8,8 +8,8 @@
     "@models": "app/models"
   },
   "scripts": {
-    "test:lesson1": "playwright test --config=config/playwright.config.ts --workers 2 /01_Setup/ts",
-    "test:allure": "playwright test --config=config/playwright.config.ts --workers 2 --reporter=line,allure-playwright",
+    "test:lesson1": "npx playwright test --config=config/playwright.config.ts /01_Setup/ts",
+    "test:allure": "npx exec playwright test --reporter=line,allure-playwright",
     "test": "npm exec playwright test",
     "test.watch": "jest --watchAll",
     "start": "start node server_start.js",
