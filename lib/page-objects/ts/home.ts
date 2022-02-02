@@ -1,5 +1,3 @@
-import config from "../../../config/playwright.config";
-
 const navBarLocator = 'nav';
 const navBarAssertionsDropDownLocator = '#assertionsDropdown';
 const navBarWebFormsDropDownLocator = '#webFormsDropdown';
