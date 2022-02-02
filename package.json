@@ -8,10 +8,15 @@
     "@models": "app/models"
   },
   "scripts": {
-    "test:lesson1": "playwright test --config=config/playwright.config.ts /01_Setup/ts",
+    "test:lesson1": "playwright test --config=config/playwright.config.ts /01_Setup/ts --headed",
     "test:lesson2": "playwright test --config=config/playwright.config.ts /02_Test_framework/ts --headed",
-    "test:lesson3": "playwright test --config=config/playwright.config.ts /03_Debugging_commands/ts",
-    "test:lesson4": "playwright test --config=config/playwright.config.ts /04_Selectors/ts",
+    "test:lesson3": "playwright test --config=config/playwright.config.ts /03_Debugging_commands/ts --headed",
+    "test:lesson4": "playwright test --config=config/playwright.config.ts /04_Selectors/ts --headed",
+    "test:lesson5": "playwright test --config=config/playwright.config.ts /05_Assertions/ts --headed",
+    "test:lesson6": "playwright test --config=config/playwright.config.ts /06_Web_forms/ts --headed",
+    "test:lesson7": "playwright test --config=config/playwright.config.ts /07_Navigation/ts --headed",
+    "test:lesson8": "playwright test --config=config/playwright.config.ts /08_Dialogs/ts --headed",
+    "test:lesson9": "playwright test --config=config/playwright.config.ts /09_Iframes/ts --headed",
     "test:allure": "playwright test --config=config/playwright.config.ts --reporter=line,allure-playwright",
     "test": "playwright test --config=config/playwright.config.ts",
     "test.watch": "jest --watchAll",
