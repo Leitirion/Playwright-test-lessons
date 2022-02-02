@@ -48,7 +48,7 @@ test.describe('Test framework (Calling JavaScript) - ', () => {
     await page.click(homePage.browserTypeButton())
 
     // Get object's class using JavaScript - first matching span
-    let spanClass = await page.$eval('#browser_div span', e => {
+    let spanClass = await page.$eval('#browser_div span', (e:HTMLLinkElement )=> {
         return e.getAttribute('class')
     })
 

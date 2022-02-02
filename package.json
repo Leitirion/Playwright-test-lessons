@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test:lesson1": "playwright test --config=config/playwright.config.ts /01_Setup/ts",
-    "test:lesson2": "playwright test --config=config/playwright.config.ts /02_Test_framework/ts",
+    "test:lesson2": "playwright test --config=config/playwright.config.ts /02_Test_framework/ts --headed",
     "test:lesson3": "playwright test --config=config/playwright.config.ts /03_Debugging_commands/ts",
     "test:lesson4": "playwright test --config=config/playwright.config.ts /04_Selectors/ts",
     "test:allure": "playwright test --config=config/playwright.config.ts --reporter=line,allure-playwright",
