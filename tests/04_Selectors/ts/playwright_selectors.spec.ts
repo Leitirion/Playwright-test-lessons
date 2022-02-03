@@ -39,7 +39,7 @@ test.describe('Selectors - Playwright', () => {
     // Show message for how we are going to locate the button
     await page.$eval(selectorsPage.statusField(), (o, locatorAttempt) => o.textContent = locatorAttempt, testInfo.title)
 
-    //await page.pause()
+    await page.pause()
 
     // Pause so we can see the message 
     await page.waitForTimeout(DELAY)
