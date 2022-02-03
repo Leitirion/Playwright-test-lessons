@@ -18,7 +18,7 @@ test.describe('Debugging - ', () => {
     
     // Get text of first H2 DOM object and check it matches
     await expect(page.locator('//h2[@id="playwright-inspector"]'))
-        .toHaveText('Playwright Inspector')
+        .toHaveText('Playwright inspector')
   })
 
 })

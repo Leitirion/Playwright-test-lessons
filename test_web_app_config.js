@@ -21,17 +21,17 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-const configData = require('./playwright.config')
-
-// Extract port from playwright.config.js -> baseURL
-const playwrightBaseUrl = configData.use.baseURL
-const playwrightPort = playwrightBaseUrl.split(':')[2]
-
-if (!playwrightBaseUrl) {
-  throw 'Could not extract port value from file playwright.config.js'
-}
-
-const config = {}
-config.port = playwrightPort
-
-module.exports = config
+// const configData = require('./playwright.config')
+//
+// // Extract port from playwright.config.js -> baseURL
+// const playwrightBaseUrl = configData.use.baseURL
+// const playwrightPort = playwrightBaseUrl.split(':')[2]
+//
+// if (!playwrightBaseUrl) {
+//   throw 'Could not extract port value from file playwright.config.js'
+// }
+//
+// const config = {}
+// config.port = playwrightPort
+//
+// module.exports = config
